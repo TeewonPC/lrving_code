@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="AnimalEnclosure.Views.AnimalsTemplate"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    >
+
+    <Canvas Width="80" Height="80">
+        <Canvas.Background>
+            <ImageBrush x:Name="animalImg" Stretch="Fill" ImageSource="pack://application:,,,/Images/鸽子-01.png"/>
+        </Canvas.Background>
+    </Canvas>
+</UserControl>
